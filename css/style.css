@@ -1,3 +1,4 @@
+
 /* Google fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
@@ -552,6 +553,14 @@ textarea {
   border-radius: 4px;
   resize: vertical;
 }
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #ff4d7a;
+  box-shadow: 0 0 8px rgba(252, 3, 107, 0.5);
+}
+
 
 label {
   padding: 0px 0px 7px 6px;
